@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: K182_PACM K43_PSCM K17_EBCM NEO K124_ASCM XXX
+BU_: K182_PACM K43_PSCM K17_EBCM NEO K124_ASCM XXX 1
 
 
 BO_ 823 PACMParkAssitCmd: 7 NEO
@@ -53,8 +53,7 @@ BO_ 789 EBCMFrictionBrakeCmd: 5 K17_EBCM
  SG_ FrictionBrakeChecksum : 23|16@0+ (1,0) [0|0] "" NEO
  SG_ FrictionBrakeCmd : 3|12@0- (1,0) [0|0] "" NEO
 
-BO_ 1001 NEW_MSG_1: 8 XXX
- SG_ Vehicle Speed : 15|16@0+ (0.01,0) [0|512] "MPH" XXX
+BO_ 1001 Vehicle Speed: 5 XXX
 
 BO_TX_BU_ 823 : K43_PSCM,NEO;
 BO_TX_BU_ 789 : NEO,K17_EBCM;
